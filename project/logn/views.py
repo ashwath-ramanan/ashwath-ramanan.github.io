@@ -4,4 +4,4 @@ from django.template import loader
 def login(request):
 	return render(request,'logn/login.html')
 def index(request):
-    return render(request, 'logn/intro.html')
+    return render(request, 'logn/index.html')
